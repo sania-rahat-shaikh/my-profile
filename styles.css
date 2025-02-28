@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-image {
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #007BFF;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.contact-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.contact-button:active {
+    transform: scale(0.9);
+}
